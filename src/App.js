@@ -62,6 +62,7 @@ function App() {
                 description: "producto cargado por axios",
             }
 
+            console.log(data)
             const response = await axios.post(url, data)
             console.log(response)
         }
